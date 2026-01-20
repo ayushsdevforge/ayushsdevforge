@@ -14,8 +14,8 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## 🚀 About Me
 
+## 🚀 About Me
 <table>
 <tr>
 <td width="60%">
@@ -28,7 +28,7 @@ const ayush = {
     currentFocus: "Building scalable applications",
     achievements: [
         "🏆 District Topper - Science Olympiad",
-        "� Top Rank in AMCAT",
+        "🎯 Top Rank in AMCAT",
         "✅ SIH 2024 Cleared"
     ],
     hobbies: ["🏔️ Trekking", "🚗 Hitchhiking", "✈️ Adventures"]
@@ -37,14 +37,14 @@ const ayush = {
 
 </td>
 <td width="40%" align="center">
-
 <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%"/>
-
 </td>
 </tr>
 </table>
 
 > *"Passionate about innovation, problem-solving, and building impactful solutions that bridge technical development with real business needs."*
+
+---
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -94,39 +94,29 @@ const ayush = {
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 📊 GitHub Stats
-
 <div align="center">
-
 <table>
 <tr>
 <td width="50%" align="center">
-
 <img width="100%" src="https://github-readme-stats.vercel.app/api?username=ayushsdevforge&show_icons=true&count_private=true&hide_border=true&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9&bg_color=0d1117"/>
-
-<img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayushsdevforge&layout=compact&hide_border=true&title_color=6C63FF&text_color=c9d1d9&bg_color=0d1117"/>
-
+<img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayushsdevforge&layout=compact&hide_border=true&title_color=6C63FF&text_color=c9d1d9&bg_color=0d1117&langs_count=4"/>
 </td>
 <td width="50%" align="center">
-
 <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=ayushsdevforge&theme=tokyonight&hide_border=true&background=0d1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF"/>
-
 <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ayushsdevforge&theme=tokyonight&utcOffset=5.5"/>
-
 </td>
 </tr>
 </table>
-
 </div>
+
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 📈 Activity Graph
-
 <div align="center">
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=ayushsdevforge&bg_color=0d1117&color=6C63FF&line=6C63FF&point=ffffff&area=true&hide_border=true"/>
-
 </div>
+
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -134,11 +124,9 @@ const ayush = {
 
 <img src="https://komarev.com/ghpvc/?username=ayushsdevforge&label=Profile%20views&color=6C63FF&style=for-the-badge" alt="Profile views" />
 
-<br><br>
+<br>
 
-```
 "It's not who I am underneath, but what I do that defines me."
-```
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,25,27&height=120&section=footer"/>
 

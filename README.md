@@ -175,7 +175,7 @@ const ayush = {
 <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&count_private=true&hide_border=true&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9&bg_color=0d1117" alt="Ayush's github stats" /> 
 <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&hide_border=true&title_color=6C63FF&text_color=c9d1d9&bg_color=0d1117" />
 
-<img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true&stroke=0000&background=0d1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF" alt="Ayush's streak stats"/>
+<img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=ayushsdevforgetheme=tokyonight&hide_border=true&stroke=0000&background=0d1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF" alt="Ayush's streak stats"/>
 
 </div>
 
@@ -185,7 +185,7 @@ const ayush = {
 
 <div align="center">
   
-![Snake animation](https://github.com/YOUR_USERNAME/YOUR_USERNAME/blob/output/github-contribution-grid-snake-dark.svg)
+![Snake animation](https://github.com/ayushsdevforge/ayushsdevforge/blob/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 
@@ -195,10 +195,10 @@ const ayush = {
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_USERNAME)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
-[![Portfolio](https://img.shields.io/badge/Portfolio-6C63FF?style=for-the-badge&logo=About.me&logoColor=white)](YOUR_PORTFOLIO_LINK)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayush071)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ayushsdevforge)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayush805126ind@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-6C63FF?style=for-the-badge&logo=About.me&logoColor=white)](www.imayush.dev)
 
 </div>
 
@@ -206,7 +206,7 @@ const ayush = {
 
 ### 💬 *"Open to collaborations and exciting opportunities!"*
 
-<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Profile%20views&color=6C63FF&style=for-the-badge" alt="Profile views" />
+<img src="https://komarev.com/ghpvc/?username=ayushsdevforge&label=Profile%20views&color=6C63FF&style=for-the-badge" alt="Profile views" />
 
 </div>
 

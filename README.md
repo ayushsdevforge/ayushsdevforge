@@ -29,7 +29,7 @@ const ayush = {
     achievements: [
         "🏆 District Topper - Science Olympiad",
         "🎯 Top Rank in AMCAT",
-        "✅ SIH 2024 Cleared"
+        "✅ SIH Internal Round 2024 Cleared"
     ],
     hobbies: ["🏔️ Trekking", "🚗 Hitchhiking", "✈️ Adventures"]
 };

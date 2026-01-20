@@ -1,13 +1,18 @@
 <div align="center">
-  
-# 👋 Hey, I'm Ayush!
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&random=false&width=600&height=100&lines=Full+Stack+Developer+%F0%9F%9A%80;Building+Impactful+Solutions+%F0%9F%92%A1;Turning+Ideas+into+Reality+%E2%9C%A8)](https://git.io/typing-svg)
+<!-- HEADER -->
+<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=12,14,25,27&height=250&section=header&text=AYUSHKUMAR&fontSize=80&fontColor=fff&animation=fadeIn&fontAlignY=40&desc=Software%20Engineer&descAlignY=65&descSize=25"/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1500&color=A855F7&center=true&vCenter=true&random=false&width=500&height=30&lines=Building+scalable+%26+impactful+solutions;Passionate+about+clean+code+%26+adventures)](https://git.io/typing-svg)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayush071)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000?style=flat-square&logo=vercel&logoColor=white)](https://www.imayush.dev)
+[![X](https://img.shields.io/badge/@ayush071-000?style=flat-square&logo=x&logoColor=white)](https://x.com/ayush071)
+[![Instagram](https://img.shields.io/badge/@lucidforu__-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/lucidforu_)
 
 </div>
 
+<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="320"/>
 ## 🚀 About Me
 
 ```javascript
@@ -55,118 +60,6 @@ const ayush = {
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## 🏗️ Featured Projects
-
-<div align="center">
-
-<table>
-<tr>
-<td width="50%">
-
-### 🎫 E-PASS - Gatepass Approval System
-<p align="center">
-<img src="https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js"/>
-<img src="https://img.shields.io/badge/Node.js-green?style=flat-square&logo=node.js"/>
-<img src="https://img.shields.io/badge/MongoDB-darkgreen?style=flat-square&logo=mongodb"/>
-<img src="https://img.shields.io/badge/WebSocket-blue?style=flat-square"/>
-</p>
-
-```
-✅ Real-time TG–HOD approvals via WebSocket
-✅ QR-based tokens with unique IDs
-✅ Time-bound, auto-expiring tokens
-✅ Admin dashboard for request management
-```
-
-</td>
-<td width="50%">
-
-### 💰 PocketTune - Finance Management
-<p align="center">
-<img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-<img src="https://img.shields.io/badge/Node.js-green?style=flat-square&logo=node.js"/>
-<img src="https://img.shields.io/badge/Express-black?style=flat-square&logo=express"/>
-<img src="https://img.shields.io/badge/MongoDB-darkgreen?style=flat-square&logo=mongodb"/>
-</p>
-
-```
-✅ Multi-account management
-✅ Smart spending insights & analytics
-✅ Financial goal tracking
-✅ Mobile-first, user-friendly interface
-```
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### ✈️ Voyager - Travel Discovery Platform
-<p align="center">
-<img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
-<img src="https://img.shields.io/badge/Nodemailer-22B573?style=flat-square"/>
-</p>
-
-```
-✅ Curated travel destinations
-✅ AI-powered chatbot integration
-✅ Firebase Authentication
-✅ Responsive & smooth navigation
-```
-
-</td>
-<td width="50%">
-
-### 🌟 More Coming Soon...
-<p align="center">
-<img src="https://img.shields.io/badge/Building-In%20Progress-yellow?style=flat-square"/>
-</p>
-
-```
-🔨 Always building something new...
-💡 Exploring new technologies
-🚀 Ready to collaborate!
-```
-
-</td>
-</tr>
-</table>
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## 🏆 Achievements & Certifications
-
-<div align="center">
-
-| 🏅 Achievement | 📜 Certification |
-|:---:|:---:|
-| 🥇 **College Top Rank** in AMCAT | Python Essential 1 & 2 - *Cisco* |
-| 🚀 **SIH 2024** Internal Round Cleared | JavaScript Programming - *Scaler* |
-| 🎤 Hosted **Git & GitHub Session** @ SISTec | Responsive Web Design - *freeCodeCamp* |
-| 🏆 **District Topper** - Science Olympiad | Intro to Cybersecurity - *CCNA* |
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## 💼 Experience
-
-<div align="center">
-
-```
-🏢 Software Developer Intern @ Mantrix (Oct – Dec 2025)
-├── 📦 Managed 2 major client projects
-├── 🚀 End-to-end project development
-├── ⚡ Optimal performance implementation
-└── 📈 Scalable solutions delivery
-```
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 📊 GitHub Stats
 
@@ -191,16 +84,9 @@ const ayush = {
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## 🤝 Let's Connect!
 
-<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ayushsdevforge&bg_color=0d1117&color=ff6b81&line=ff4757&point=ffffff&area=true&hide_border=true"/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayush071)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ayushsdevforge)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayush805126ind@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-6C63FF?style=for-the-badge&logo=About.me&logoColor=white)](www.imayush.dev)
-
-</div>
 
 <div align="center">
 

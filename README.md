@@ -7,7 +7,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayush071)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white)](https://www.imayush.dev)
-[![X](https://img.shields.io/badge/@ayush071-000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/ayush071)
+[![X](https://img.shields.io/badge/@ayush071-000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/ayushpandey_071)
 [![Instagram](https://img.shields.io/badge/@lucidforu__-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/lucidforu_)
 
 </div>

@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:8B5CF6,50:EC4899,100:06B6D4&height=350&section=header&text=AYUSH%20KUMAR&fontSize=90&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=Software%20Engineer&descAlignY=60&descSize=30&fontAlign=50&descAlign=50&textBg=false&descAlignY=60"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:8B5CF6,50:EC4899,100:06B6D4&height=200&section=header&text=AYUSH%20KUMAR&fontSize=70&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=Software%20Engineer&descAlignY=65&descSize=22&fontAlign=50&descAlign=50"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1500&color=A855F7&center=true&vCenter=true&random=false&width=600&height=35&lines=Building+scalable+%26+impactful+solutions;Passionate+about+clean+code+%26+adventures;Full+Stack+Developer+%7C+Problem+Solver)](https://git.io/typing-svg)
 
@@ -117,8 +117,6 @@ const ayush = {
 </table>
 
 </div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 

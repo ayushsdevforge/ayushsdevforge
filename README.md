@@ -125,7 +125,8 @@ const ayush = {
 
 <br>
 
-"It's not who I am underneath, but what I do that defines me."
+
+> *It's not who I am underneath, but what I do that defines me.*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,25,27&height=120&section=footer"/>
 

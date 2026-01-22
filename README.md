@@ -1,5 +1,4 @@
 <div align="center">
-
 <!-- HEADER -->
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:8B5CF6,50:EC4899,100:06B6D4&height=200&section=header&text=AYUSH%20KUMAR&fontSize=70&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=Software%20Engineer&descAlignY=65&descSize=22&fontAlign=50&descAlign=50"/>
 

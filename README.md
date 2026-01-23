@@ -27,7 +27,7 @@ const ayush = {
     currentFocus: "Building scalable applications",
     achievements: [
         "🏆 District Topper - Science Olympiad",
-        "🎯 Top Rank in AMCAT",
+        "🎯 Top Rank in AMCAT Assessment",
         "✅ SIH Internal Round 2024 Cleared"
     ],
     hobbies: ["🏔️ Trekking", "🚗 Hitchhiking", "✈️ Adventures"]

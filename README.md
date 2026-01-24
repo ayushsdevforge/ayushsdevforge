@@ -8,7 +8,7 @@
 [![Portfolio](https://img.shields.io/badge/imayush.dev-000?style=for-the-badge&logo=vercel&logoColor=white)](https://www.imayush.dev)
 [![X](https://img.shields.io/badge/@ayushpandey_071-000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/ayushpandey_071)
 [![Instagram](https://img.shields.io/badge/@lucidforu__-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/lucidforu_)
-
+[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/ayushsdevforge) 
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">

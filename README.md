@@ -36,7 +36,7 @@ const ayush = {
 
 </td>
 <td width="40%" align="center">
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%"/>
+<img align="right" width="450px" src="https://i.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" alt="coding">
 </td>
 </tr>
 </table>

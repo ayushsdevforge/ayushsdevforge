@@ -111,11 +111,6 @@ const ayush = {
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## 📈 Activity Graph
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ayushsdevforge&bg_color=0d1117&color=6C63FF&line=6C63FF&point=ffffff&area=true&hide_border=true"/>
-</div>
-
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 

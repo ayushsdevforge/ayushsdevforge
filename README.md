@@ -94,7 +94,6 @@ const ayush = {
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=ayushsdevforge&label=Profile%20views&color=6C63FF&style=for-the-badge" alt="Profile views" />
 
 <br>
 

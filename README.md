@@ -23,13 +23,18 @@
 const ayush = {
     pronouns: "he" | "him",
     education: "B.Tech in CSE @ SISTec, Bhopal",
+
+    workingAs: "System Engineer (Digital Cadre) @ TCS",
     role: "Full Stack Developer",
+
     currentFocus: "Building scalable applications",
+
     achievements: [
         "🏆 District Topper - Science Olympiad",
         "🎯 Top Rank in AMCAT Assessment",
         "✅ SIH Internal Round 2024 Cleared"
     ],
+
     hobbies: ["🏔️ Trekking", "🚗 Hitchhiking", "✈️ Adventures"]
 };
 ```

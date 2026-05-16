@@ -78,7 +78,7 @@ const ayush = {
 ![OS](https://img.shields.io/badge/OS-0078D4?style=for-the-badge&logo=linux&logoColor=white)
 ![CN](https://img.shields.io/badge/Networks-1DA1F2?style=for-the-badge&logo=cisco&logoColor=white)
 ![Linear DSA](https://img.shields.io/badge/Linear%20DSA-8B5CF6?style=for-the-badge&logo=code&logoColor=white)
-![Software Engineering](https://img.shields.io/badge/Software%20Engineering-FF6F00?style=for-the-badge&logo=googlechrome&logoColor=white)
+![Agile](https://img.shields.io/badge/Agile-009FDA?style=for-the-badge&logo=jira&logoColor=white)
 
 
 ### 🔧 Languages & Tools

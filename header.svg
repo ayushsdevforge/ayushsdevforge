@@ -1,0 +1,454 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360">
+  <defs>
+    <!-- Sketchy wobble -->
+    <filter id="sketch" x="-3%" y="-3%" width="106%" height="106%">
+      <feTurbulence type="turbulence" baseFrequency="0.04" numOctaves="3" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="2" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+
+    <!-- Animated underline gradient -->
+    <linearGradient id="dynLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e85d04">
+        <animate attributeName="stop-color" values="#e85d04;#d62828;#7b2cbf;#e85d04" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" style="stop-color:#d62828">
+        <animate attributeName="stop-color" values="#d62828;#7b2cbf;#e85d04;#d62828" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#7b2cbf">
+        <animate attributeName="stop-color" values="#7b2cbf;#e85d04;#d62828;#7b2cbf" dur="3s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Text shadow -->
+    <filter id="tshadow" x="-3%" y="-3%" width="106%" height="115%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1.5" flood-color="#1a1a2e" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- ===== BACKGROUND ===== -->
+  <rect width="1200" height="360" fill="#faf5ee"/>
+
+  <!-- Notebook lines -->
+  <g stroke="#e8dfd3" stroke-width="0.6" opacity="0.5">
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="140" x2="1200" y2="140"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="220" x2="1200" y2="220"/>
+    <line x1="0" y1="260" x2="1200" y2="260"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="340" x2="1200" y2="340"/>
+  </g>
+  <line x1="45" y1="0" x2="45" y2="360" stroke="#f0c4c4" stroke-width="1.2" opacity="0.45"/>
+
+  <!-- ===== DOODLE WORKSPACE SCENE (left side) ===== -->
+  <g filter="url(#sketch)">
+
+    <!-- ── DESK surface ── -->
+    <path d="M30 278 Q140 272 280 278" fill="none" stroke="#1a1a2e" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- ── LAPTOP ── -->
+    <!-- Screen -->
+    <path d="M75 165 L75 245 L225 245 L225 165 Z" fill="#1a1a2e" stroke="#1a1a2e" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Screen inner glow -->
+    <rect x="82" y="172" width="136" height="66" rx="3" fill="#232340"/>
+    <!-- Code lines on screen -->
+    <line x1="90" y1="184" x2="130" y2="184" stroke="#b388ff" stroke-width="2" stroke-linecap="round">
+      <animate attributeName="x2" values="110;130;110" dur="3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="90" y1="194" x2="155" y2="194" stroke="#6bcb77" stroke-width="2" stroke-linecap="round">
+      <animate attributeName="x2" values="140;155;140" dur="4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="100" y1="204" x2="145" y2="204" stroke="#ff6b9d" stroke-width="2" stroke-linecap="round">
+      <animate attributeName="x2" values="130;145;130" dur="3.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="100" y1="214" x2="160" y2="214" stroke="#ffd93d" stroke-width="2" stroke-linecap="round">
+      <animate attributeName="x2" values="145;160;145" dur="2.8s" repeatCount="indefinite"/>
+    </line>
+    <line x1="90" y1="224" x2="120" y2="224" stroke="#64d2ff" stroke-width="2" stroke-linecap="round">
+      <animate attributeName="x2" values="105;120;105" dur="3.2s" repeatCount="indefinite"/>
+    </line>
+    <!-- Cursor blinking on screen -->
+    <rect x="175" y="183" width="6" height="10" rx="1" fill="#b388ff">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+    <!-- Screen glare -->
+    <path d="M200 172 L210 172 L195 200 L185 200 Z" fill="white" opacity="0.04"/>
+    <!-- Laptop base/keyboard -->
+    <path d="M65 245 L55 278 L255 278 L245 245" fill="none" stroke="#1a1a2e" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Keyboard detail lines -->
+    <line x1="80" y1="256" x2="230" y2="256" stroke="#1a1a2e" stroke-width="0.8" opacity="0.5"/>
+    <line x1="85" y1="262" x2="225" y2="262" stroke="#1a1a2e" stroke-width="0.8" opacity="0.5"/>
+    <line x1="90" y1="268" x2="220" y2="268" stroke="#1a1a2e" stroke-width="0.8" opacity="0.5"/>
+    <!-- Trackpad -->
+    <rect x="132" y="269" width="46" height="6" rx="2" fill="none" stroke="#1a1a2e" stroke-width="0.8" opacity="0.4"/>
+
+    <!-- ── COFFEE CUP (right of laptop) ── -->
+    <path d="M245 244 L245 272 Q245 278 251 278 L269 278 Q275 278 275 272 L275 244" fill="none" stroke="#1a1a2e" stroke-width="2.3" stroke-linejoin="round"/>
+    <!-- Handle -->
+    <path d="M275 250 Q286 250 286 260 Q286 270 275 270" fill="none" stroke="#1a1a2e" stroke-width="2"/>
+    <!-- Steam -->
+    <path d="M252 240 Q254 232 252 224" fill="none" stroke="#1a1a2e" stroke-width="1.5" stroke-linecap="round" opacity="0.5">
+      <animate attributeName="d" values="M252 240 Q254 232 252 224;M252 238 Q254 228 252 218;M252 240 Q254 232 252 224" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.15;0.5" dur="2.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M262 240 Q264 230 262 222" fill="none" stroke="#1a1a2e" stroke-width="1.5" stroke-linecap="round" opacity="0.4">
+      <animate attributeName="d" values="M262 240 Q264 230 262 222;M262 238 Q264 226 262 216;M262 240 Q264 230 262 222" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.1;0.4" dur="3s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- ── SMALL PLANT / SUCCULENT (far left on desk) ── -->
+    <!-- Pot -->
+    <path d="M38 260 L34 278 L56 278 L52 260" fill="none" stroke="#1a1a2e" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="36" y1="260" x2="54" y2="260" stroke="#1a1a2e" stroke-width="2"/>
+    <!-- Leaves -->
+    <path d="M45 260 Q42 245 35 238" fill="none" stroke="#1a1a2e" stroke-width="2" stroke-linecap="round"/>
+    <path d="M45 260 Q48 242 55 235" fill="none" stroke="#1a1a2e" stroke-width="2" stroke-linecap="round"/>
+    <path d="M45 260 L45 240" fill="none" stroke="#1a1a2e" stroke-width="2" stroke-linecap="round"/>
+    <!-- Tiny leaf details -->
+    <path d="M45 248 Q40 244 38 248" fill="none" stroke="#1a1a2e" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M45 250 Q50 246 52 250" fill="none" stroke="#1a1a2e" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- ── STACK OF BOOKS (below desk, left) ── -->
+    <rect x="55" y="282" width="55" height="10" rx="2" fill="none" stroke="#1a1a2e" stroke-width="2"/>
+    <rect x="58" y="292" width="50" height="10" rx="2" fill="none" stroke="#1a1a2e" stroke-width="2"/>
+    <rect x="52" y="302" width="58" height="10" rx="2" fill="none" stroke="#1a1a2e" stroke-width="2"/>
+    <!-- Book spine lines -->
+    <line x1="70" y1="282" x2="70" y2="292" stroke="#1a1a2e" stroke-width="0.8"/>
+    <line x1="75" y1="292" x2="75" y2="302" stroke="#1a1a2e" stroke-width="0.8"/>
+    <line x1="68" y1="302" x2="68" y2="312" stroke="#1a1a2e" stroke-width="0.8"/>
+
+    <!-- ── FLOATING IDEA BUBBLES from laptop ── -->
+    <!-- Thought bubble chain -->
+    <circle cx="200" cy="155" r="3" fill="none" stroke="#1a1a2e" stroke-width="1.5" opacity="0.5">
+      <animate attributeName="cy" values="155;150;155" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="210" cy="140" r="5" fill="none" stroke="#1a1a2e" stroke-width="1.5" opacity="0.5">
+      <animate attributeName="cy" values="140;134;140" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Bigger idea cloud -->
+    <g opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.7;0.5" dur="4s" repeatCount="indefinite"/>
+      <path d="M205 118 Q195 105 210 100 Q220 95 230 102 Q240 95 248 105 Q258 105 255 115 Q260 122 250 125 Q248 132 235 130 Q225 135 218 128 Q205 130 205 118 Z" fill="none" stroke="#1a1a2e" stroke-width="1.8" stroke-linejoin="round">
+        <animate attributeName="d" values="M205 118 Q195 105 210 100 Q220 95 230 102 Q240 95 248 105 Q258 105 255 115 Q260 122 250 125 Q248 132 235 130 Q225 135 218 128 Q205 130 205 118 Z;M205 115 Q195 102 210 97 Q220 92 230 99 Q240 92 248 102 Q258 102 255 112 Q260 119 250 122 Q248 129 235 127 Q225 132 218 125 Q205 127 205 115 Z;M205 118 Q195 105 210 100 Q220 95 230 102 Q240 95 248 105 Q258 105 255 115 Q260 122 250 125 Q248 132 235 130 Q225 135 218 128 Q205 130 205 118 Z" dur="4s" repeatCount="indefinite"/>
+      </path>
+      <!-- Lightbulb inside cloud -->
+      <path d="M226 118 Q220 112 222 106 Q224 100 230 100 Q236 100 238 106 Q240 112 234 118" fill="none" stroke="#1a1a2e" stroke-width="1.3"/>
+      <line x1="226" y1="118" x2="234" y2="118" stroke="#1a1a2e" stroke-width="1.2"/>
+      <line x1="227" y1="121" x2="233" y2="121" stroke="#1a1a2e" stroke-width="1"/>
+    </g>
+
+    <!-- ── STICKY NOTE (tilted, on desk) ── -->
+    <g transform="translate(155, 280) rotate(-8)">
+      <rect x="0" y="0" width="38" height="35" rx="1" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+      <!-- Lines on sticky -->
+      <line x1="5" y1="10" x2="33" y2="10" stroke="#1a1a2e" stroke-width="0.7" opacity="0.5"/>
+      <line x1="5" y1="16" x2="28" y2="16" stroke="#1a1a2e" stroke-width="0.7" opacity="0.5"/>
+      <line x1="5" y1="22" x2="30" y2="22" stroke="#1a1a2e" stroke-width="0.7" opacity="0.5"/>
+      <!-- Checkmark -->
+      <path d="M7 27 L12 32 L20 24" fill="none" stroke="#1a1a2e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Curl corner -->
+      <path d="M38 28 Q34 32 30 35 L38 35 Z" fill="none" stroke="#1a1a2e" stroke-width="0.8"/>
+    </g>
+
+    <!-- ── PENCIL (on desk) ── -->
+    <g transform="translate(210, 286) rotate(-20)">
+      <rect x="0" y="0" width="52" height="7" rx="1" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+      <!-- Tip -->
+      <path d="M52 0 L60 3.5 L52 7" fill="none" stroke="#1a1a2e" stroke-width="1.5" stroke-linejoin="round"/>
+      <!-- Eraser -->
+      <line x1="8" y1="0" x2="8" y2="7" stroke="#1a1a2e" stroke-width="1"/>
+      <rect x="0" y="0" width="8" height="7" rx="1" fill="none" stroke="#1a1a2e" stroke-width="1"/>
+    </g>
+
+    <!-- ── HEADPHONES (hanging off screen edge) ── -->
+    <path d="M68 170 Q68 140 90 130 Q112 120 130 140" fill="none" stroke="#1a1a2e" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Left ear pad -->
+    <rect x="62" y="165" width="12" height="18" rx="4" fill="none" stroke="#1a1a2e" stroke-width="2"/>
+    <!-- Right ear pad -->
+    <rect x="124" y="135" width="12" height="18" rx="4" fill="none" stroke="#1a1a2e" stroke-width="2"/>
+
+    <!-- ── MOUSE (right side of desk) ── -->
+    <ellipse cx="295" cy="268" rx="10" ry="14" fill="none" stroke="#1a1a2e" stroke-width="2"/>
+    <line x1="295" y1="258" x2="295" y2="265" stroke="#1a1a2e" stroke-width="1.2"/>
+    <!-- Mouse cord -->
+    <path d="M295 254 Q310 240 290 230" fill="none" stroke="#1a1a2e" stroke-width="1.3" stroke-linecap="round" opacity="0.5"/>
+  </g>
+
+  <!-- ===== DOODLE WAVE HAND ===== -->
+  <g transform="translate(340, 65)" filter="url(#sketch)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0,18,30;20,18,30;-12,18,30;20,18,30;-6,18,30;14,18,30;0,18,30" dur="2s" repeatCount="indefinite"/>
+      <ellipse cx="18" cy="35" rx="14" ry="16" fill="none" stroke="#1a1a2e" stroke-width="2.5"/>
+      <path d="M4 30 Q-4 22 2 18" fill="none" stroke="#1a1a2e" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M8 20 L6 6" fill="none" stroke="#1a1a2e" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M14 18 L13 2" fill="none" stroke="#1a1a2e" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M21 18 L22 3" fill="none" stroke="#1a1a2e" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M27 21 L30 8" fill="none" stroke="#1a1a2e" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="38" y1="15" x2="46" y2="12" stroke="#1a1a2e" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+      <line x1="38" y1="22" x2="48" y2="22" stroke="#1a1a2e" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+      <line x1="36" y1="30" x2="44" y2="33" stroke="#1a1a2e" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+    </g>
+  </g>
+
+  <!-- ===== MAIN TEXT ===== -->
+
+  <!-- "Hi folks!" -->
+  <text x="400" y="108" font-family="Caveat, 'Comic Sans MS', cursive" font-size="56" font-weight="700" fill="#1a1a2e" filter="url(#tshadow)" opacity="0">
+    Hi folks!
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.1s" fill="freeze"/>
+  </text>
+
+  <!-- "I'm" -->
+  <text x="400" y="172" font-family="Caveat, 'Comic Sans MS', cursive" font-size="40" font-weight="700" fill="#2d2d44" opacity="0">
+    I'm
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.5s" fill="freeze"/>
+  </text>
+
+  <!-- "Ayush Kumar" -->
+  <text x="500" y="176" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="900" fill="#1a1a2e" filter="url(#tshadow)" letter-spacing="-1" opacity="0">
+    Ayush Kumar
+    <animate attributeName="opacity" from="0" to="1" dur="0.7s" begin="0.7s" fill="freeze"/>
+  </text>
+
+  <!-- DYNAMIC animated underline -->
+  <path d="M498 192 Q542 205 587 190 Q632 175 677 192 Q722 209 767 192 Q802 178 842 192" fill="none" stroke="url(#dynLine)" stroke-width="4" stroke-linecap="round" filter="url(#sketch)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.2s" fill="freeze"/>
+    <animate attributeName="d" values="M498 192 Q542 205 587 190 Q632 175 677 192 Q722 209 767 192 Q802 178 842 192;M498 192 Q542 178 587 195 Q632 210 677 192 Q722 175 767 195 Q802 210 842 192;M498 192 Q542 205 587 190 Q632 175 677 192 Q722 209 767 192 Q802 178 842 192" dur="2.5s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- "SOFTWARE ENGINEER" -->
+  <text x="402" y="234" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="800" fill="#dc2626" letter-spacing="8" opacity="0">
+    SOFTWARE ENGINEER
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="1.5s" fill="freeze"/>
+  </text>
+
+  <!-- Tagline line 1 -->
+  <text x="405" y="268" font-family="Caveat, 'Comic Sans MS', cursive" font-size="24" font-weight="700" fill="#3d3d5c" opacity="0">
+    crafting scalable solutions, solving real-world problems
+    <animate attributeName="opacity" from="0" to="0.85" dur="0.6s" begin="1.9s" fill="freeze"/>
+  </text>
+
+  <!-- Tagline line 2: "& chasing adventures" -->
+  <text x="405" y="298" font-family="Caveat, 'Comic Sans MS', cursive" font-size="24" font-weight="700" fill="#3d3d5c" opacity="0">
+    &amp; chasing adventures
+    <animate attributeName="opacity" from="0" to="0.85" dur="0.6s" begin="2.2s" fill="freeze"/>
+  </text>
+
+  <!-- DOODLE MOUNTAIN — spaced out from text -->
+  <g transform="translate(670, 272)" filter="url(#sketch)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="2.5s" fill="freeze"/>
+    <!-- Big peak -->
+    <path d="M0 28 L16 2 L32 28" fill="none" stroke="#1a1a2e" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <!-- Snow cap -->
+    <path d="M11 12 L16 2 L21 12 L18 10 L16 13 L14 10 Z" fill="none" stroke="#1a1a2e" stroke-width="1.5" stroke-linejoin="round"/>
+    <!-- Small peak -->
+    <path d="M24 28 L36 10 L48 28" fill="none" stroke="#1a1a2e" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <!-- Snow cap small -->
+    <path d="M32 16 L36 10 L40 16" fill="none" stroke="#1a1a2e" stroke-width="1.2" stroke-linejoin="round"/>
+    <!-- Ground -->
+    <path d="M-5 28 Q10 30 24 28 Q38 26 53 28" fill="none" stroke="#1a1a2e" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Sun -->
+    <circle cx="45" cy="5" r="5" fill="none" stroke="#1a1a2e" stroke-width="1.8"/>
+    <line x1="45" y1="-3" x2="45" y2="-7" stroke="#1a1a2e" stroke-width="1.3" stroke-linecap="round">
+      <animate attributeName="y2" values="-7;-9;-7" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="52" y1="2" x2="56" y2="0" stroke="#1a1a2e" stroke-width="1.3" stroke-linecap="round">
+      <animate attributeName="x2" values="56;58;56" dur="2.2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="52" y1="8" x2="56" y2="10" stroke="#1a1a2e" stroke-width="1.3" stroke-linecap="round">
+      <animate attributeName="x2" values="56;58;56" dur="2.4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="38" y1="-1" x2="35" y2="-5" stroke="#1a1a2e" stroke-width="1.3" stroke-linecap="round">
+      <animate attributeName="y2" values="-5;-7;-5" dur="2.1s" repeatCount="indefinite"/>
+    </line>
+    <!-- Flag on peak -->
+    <line x1="16" y1="2" x2="16" y2="-5" stroke="#1a1a2e" stroke-width="1.3"/>
+    <path d="M16 -5 Q20 -3 16 -1" fill="none" stroke="#1a1a2e" stroke-width="1.2">
+      <animate attributeName="d" values="M16 -5 Q20 -3 16 -1;M16 -5 Q22 -4 16 -1;M16 -5 Q20 -3 16 -1" dur="1.5s" repeatCount="indefinite"/>
+    </path>
+    <!-- Tiny birds -->
+    <path d="M-8 8 Q-5 4 -2 8" fill="none" stroke="#1a1a2e" stroke-width="1" stroke-linecap="round" opacity="0.5">
+      <animate attributeName="transform" type="translate" values="0,0;-3,-2;0,0" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-15 14 Q-12 10 -9 14" fill="none" stroke="#1a1a2e" stroke-width="0.8" stroke-linecap="round" opacity="0.4">
+      <animate attributeName="transform" type="translate" values="0,0;-4,-1;0,0" dur="5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- ===== RIGHT-SIDE DOODLE ICONS ===== -->
+
+  <!-- DOODLE ROCKET -->
+  <g transform="translate(1050, 40)" filter="url(#sketch)" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.85" dur="0.4s" begin="1s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="1050,40;1050,32;1050,40" dur="3s" repeatCount="indefinite"/>
+    <path d="M12 30 Q12 10 18 0 Q24 10 24 30" fill="none" stroke="#1a1a2e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="18" cy="8" r="3" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+    <path d="M12 25 L5 32 L12 30" fill="none" stroke="#1a1a2e" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M24 25 L31 32 L24 30" fill="none" stroke="#1a1a2e" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M14 30 Q18 42 22 30" fill="none" stroke="#1a1a2e" stroke-width="2" stroke-linecap="round">
+      <animate attributeName="d" values="M14 30 Q18 42 22 30;M14 30 Q18 46 22 30;M14 30 Q18 42 22 30" dur="0.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M16 30 Q18 37 20 30" fill="none" stroke="#1a1a2e" stroke-width="1.3" stroke-linecap="round">
+      <animate attributeName="d" values="M16 30 Q18 37 20 30;M16 30 Q18 40 20 30;M16 30 Q18 37 20 30" dur="0.3s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- DOODLE LIGHTBULB -->
+  <g transform="translate(1000, 110)" filter="url(#sketch)" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.8" dur="0.4s" begin="1.5s" fill="freeze"/>
+    <path d="M10 22 Q0 15 0 8 Q0 -2 12 -2 Q24 -2 24 8 Q24 15 14 22" fill="none" stroke="#1a1a2e" stroke-width="2.3" stroke-linecap="round"/>
+    <line x1="10" y1="22" x2="14" y2="22" stroke="#1a1a2e" stroke-width="2"/>
+    <line x1="9" y1="25" x2="15" y2="25" stroke="#1a1a2e" stroke-width="2"/>
+    <line x1="10" y1="28" x2="14" y2="28" stroke="#1a1a2e" stroke-width="1.5"/>
+    <line x1="-5" y1="8" x2="-10" y2="8" stroke="#1a1a2e" stroke-width="1.5" stroke-linecap="round">
+      <animate attributeName="x2" values="-10;-13;-10" dur="1.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="29" y1="8" x2="34" y2="8" stroke="#1a1a2e" stroke-width="1.5" stroke-linecap="round">
+      <animate attributeName="x2" values="34;37;34" dur="1.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="2" y1="-4" x2="-2" y2="-9" stroke="#1a1a2e" stroke-width="1.5" stroke-linecap="round">
+      <animate attributeName="y2" values="-9;-12;-9" dur="1.8s" repeatCount="indefinite"/>
+    </line>
+    <line x1="22" y1="-4" x2="26" y2="-9" stroke="#1a1a2e" stroke-width="1.5" stroke-linecap="round">
+      <animate attributeName="y2" values="-9;-12;-9" dur="1.6s" repeatCount="indefinite"/>
+    </line>
+    <line x1="12" y1="-5" x2="12" y2="-11" stroke="#1a1a2e" stroke-width="1.5" stroke-linecap="round">
+      <animate attributeName="y2" values="-11;-14;-11" dur="1.4s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- DOODLE LIGHTNING BOLT -->
+  <g transform="translate(960, 55)" filter="url(#sketch)" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.8" dur="0.3s" begin="1.3s" fill="freeze"/>
+    <path d="M14 0 L4 16 L12 16 L6 32 L22 12 L14 12 L20 0 Z" fill="none" stroke="#1a1a2e" stroke-width="2.3" stroke-linejoin="round">
+      <animate attributeName="opacity" values="0.8;1;0.6;1;0.8" dur="2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- DOODLE COFFEE CUP (right side) -->
+  <g transform="translate(1100, 120)" filter="url(#sketch)" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.75" dur="0.4s" begin="2s" fill="freeze"/>
+    <path d="M0 8 L0 30 Q0 36 6 36 L18 36 Q24 36 24 30 L24 8" fill="none" stroke="#1a1a2e" stroke-width="2.3" stroke-linejoin="round"/>
+    <path d="M24 14 Q34 14 34 22 Q34 30 24 30" fill="none" stroke="#1a1a2e" stroke-width="2.2"/>
+    <path d="M6 4 Q8 -2 6 -6" fill="none" stroke="#1a1a2e" stroke-width="1.5" stroke-linecap="round" opacity="0.6">
+      <animate attributeName="d" values="M6 4 Q8 -2 6 -6;M6 2 Q8 -4 6 -10;M6 4 Q8 -2 6 -6" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M12 4 Q14 -3 12 -8" fill="none" stroke="#1a1a2e" stroke-width="1.5" stroke-linecap="round" opacity="0.5">
+      <animate attributeName="d" values="M12 4 Q14 -3 12 -8;M12 2 Q14 -5 12 -12;M12 4 Q14 -3 12 -8" dur="2.3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.15;0.5" dur="2.3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M18 4 Q20 -1 18 -5" fill="none" stroke="#1a1a2e" stroke-width="1.5" stroke-linecap="round" opacity="0.5">
+      <animate attributeName="d" values="M18 4 Q20 -1 18 -5;M18 2 Q20 -3 18 -9;M18 4 Q20 -1 18 -5" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.15;0.5" dur="2.6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- DOODLE GEAR -->
+  <g transform="translate(1060, 185)" filter="url(#sketch)" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.65" dur="0.4s" begin="2.3s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="rotate" values="0,1072,197;360,1072,197" dur="12s" repeatCount="indefinite"/>
+    <circle cx="12" cy="12" r="5" fill="none" stroke="#1a1a2e" stroke-width="2"/>
+    <circle cx="12" cy="12" r="11" fill="none" stroke="#1a1a2e" stroke-width="2"/>
+    <line x1="12" y1="0" x2="12" y2="-3" stroke="#1a1a2e" stroke-width="3" stroke-linecap="round"/>
+    <line x1="12" y1="24" x2="12" y2="27" stroke="#1a1a2e" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="12" x2="-3" y2="12" stroke="#1a1a2e" stroke-width="3" stroke-linecap="round"/>
+    <line x1="24" y1="12" x2="27" y2="12" stroke="#1a1a2e" stroke-width="3" stroke-linecap="round"/>
+    <line x1="3.5" y1="3.5" x2="1" y2="1" stroke="#1a1a2e" stroke-width="3" stroke-linecap="round"/>
+    <line x1="20.5" y1="20.5" x2="23" y2="23" stroke="#1a1a2e" stroke-width="3" stroke-linecap="round"/>
+    <line x1="20.5" y1="3.5" x2="23" y2="1" stroke="#1a1a2e" stroke-width="3" stroke-linecap="round"/>
+    <line x1="3.5" y1="20.5" x2="1" y2="23" stroke="#1a1a2e" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- DOODLE HEART -->
+  <g transform="translate(930, 290)" filter="url(#sketch)" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.7" dur="0.4s" begin="2.7s" fill="freeze"/>
+    <path d="M12 22 C12 22 0 14 0 6 Q0 0 6 0 Q12 0 12 6 Q12 0 18 0 Q24 0 24 6 C24 14 12 22 12 22 Z" fill="none" stroke="#1a1a2e" stroke-width="2.3" stroke-linejoin="round">
+      <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="1.2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- DOODLE CODE BRACKETS -->
+  <g transform="translate(880, 60)" filter="url(#sketch)" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.7" dur="0.4s" begin="1.7s" fill="freeze"/>
+    <text font-family="'Courier New', monospace" font-size="30" fill="#1a1a2e" font-weight="bold">&lt;/&gt;</text>
+  </g>
+
+  <!-- DOODLE STAR -->
+  <g transform="translate(1120, 260)" filter="url(#sketch)" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.6" dur="0.4s" begin="2.5s" fill="freeze"/>
+    <path d="M12 0 L15 8 L24 8 L17 14 L20 22 L12 17 L4 22 L7 14 L0 8 L9 8 Z" fill="none" stroke="#1a1a2e" stroke-width="2" stroke-linejoin="round">
+      <animateTransform attributeName="transform" type="rotate" values="0,12,11;10,12,11;-10,12,11;0,12,11" dur="6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- DOODLE PAPER PLANE -->
+  <g transform="translate(1000, 240)" filter="url(#sketch)" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.6" dur="0.4s" begin="2.1s" fill="freeze"/>
+    <path d="M0 15 L28 0 L10 18 Z" fill="none" stroke="#1a1a2e" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M10 18 L12 28 L18 14" fill="none" stroke="#1a1a2e" stroke-width="1.5" stroke-linejoin="round"/>
+    <line x1="-5" y1="18" x2="-12" y2="21" stroke="#1a1a2e" stroke-width="1.3" stroke-linecap="round" opacity="0.4"/>
+    <line x1="-8" y1="14" x2="-16" y2="16" stroke="#1a1a2e" stroke-width="1.3" stroke-linecap="round" opacity="0.3"/>
+  </g>
+
+  <!-- DOODLE TARGET -->
+  <g transform="translate(910, 175)" filter="url(#sketch)" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.55" dur="0.4s" begin="1.9s" fill="freeze"/>
+    <circle cx="12" cy="12" r="10" fill="none" stroke="#1a1a2e" stroke-width="2"/>
+    <circle cx="12" cy="12" r="5" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+    <circle cx="12" cy="12" r="1.5" fill="#1a1a2e"/>
+    <line x1="12" y1="0" x2="12" y2="4" stroke="#1a1a2e" stroke-width="1.5"/>
+    <line x1="12" y1="20" x2="12" y2="24" stroke="#1a1a2e" stroke-width="1.5"/>
+    <line x1="0" y1="12" x2="4" y2="12" stroke="#1a1a2e" stroke-width="1.5"/>
+    <line x1="20" y1="12" x2="24" y2="12" stroke="#1a1a2e" stroke-width="1.5"/>
+  </g>
+
+  <!-- ===== SPARKLES & DECORATIONS ===== -->
+
+  <g filter="url(#sketch)" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.6" dur="0.3s" begin="1.4s" fill="freeze"/>
+    <line x1="848" y1="145" x2="848" y2="159" stroke="#1a1a2e" stroke-width="2" stroke-linecap="round"/>
+    <line x1="841" y1="152" x2="855" y2="152" stroke="#1a1a2e" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#sketch)" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.45" dur="0.3s" begin="2.4s" fill="freeze"/>
+    <line x1="790" y1="222" x2="790" y2="232" stroke="#1a1a2e" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="785" y1="227" x2="795" y2="227" stroke="#1a1a2e" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Squiggly decorations -->
+  <path d="M860 100 Q875 90 890 100 Q905 110 920 100" fill="none" stroke="#2d2d44" stroke-width="1.8" stroke-linecap="round" filter="url(#sketch)" opacity="0" stroke-dasharray="80" stroke-dashoffset="80">
+    <animate attributeName="stroke-dashoffset" from="80" to="0" dur="1s" begin="0.8s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="0.4" dur="0.5s" begin="0.8s" fill="freeze"/>
+  </path>
+
+  <!-- Spiral bottom-left -->
+  <path d="M330 330 Q340 320 345 330 Q350 345 335 345 Q318 345 318 328 Q318 310 340 308" fill="none" stroke="#2d2d44" stroke-width="1.5" stroke-linecap="round" filter="url(#sketch)" opacity="0" stroke-dasharray="130" stroke-dashoffset="130">
+    <animate attributeName="stroke-dashoffset" from="130" to="0" dur="1.5s" begin="2.5s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="0.3" dur="0.5s" begin="2.5s" fill="freeze"/>
+  </path>
+
+  <!-- Corner brackets -->
+  <g stroke="#2d2d44" stroke-width="1.8" opacity="0.2" filter="url(#sketch)">
+    <path d="M18 14 L18 34" fill="none"/><path d="M18 14 L38 14" fill="none"/>
+    <path d="M1182 14 L1182 34" fill="none"/><path d="M1182 14 L1162 14" fill="none"/>
+    <path d="M18 346 L18 326" fill="none"/><path d="M18 346 L38 346" fill="none"/>
+    <path d="M1182 346 L1182 326" fill="none"/><path d="M1182 346 L1162 346" fill="none"/>
+  </g>
+
+  <!-- Squiggly bottom wave -->
+  <path d="M300 340 Q330 328 360 340 Q390 352 420 340 Q450 328 480 340 Q510 352 540 340 Q570 328 600 340 Q630 352 660 340 Q690 328 720 340 Q750 352 780 340 Q810 328 840 340 Q870 352 900 340" fill="none" stroke="#d4c9b8" stroke-width="2.2" stroke-linecap="round" filter="url(#sketch)" stroke-dasharray="800" stroke-dashoffset="800">
+    <animate attributeName="stroke-dashoffset" from="800" to="0" dur="2s" begin="3s" fill="freeze"/>
+  </path>
+
+  <!-- Status badge -->
+  <g transform="translate(405, 330)" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.8" dur="0.5s" begin="3s" fill="freeze"/>
+    <circle cx="0" cy="0" r="4.5" fill="none" stroke="#1a1a2e" stroke-width="2">
+      <animate attributeName="r" values="4.5;5.5;4.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="2" fill="#1a1a2e"/>
+    <text x="14" y="5" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#1a1a2e" letter-spacing="2" font-weight="700">OPEN TO COLLABORATE</text>
+  </g>
+</svg>

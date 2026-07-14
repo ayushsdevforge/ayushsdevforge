@@ -1,8 +1,8 @@
 <div align="center">
 <!-- HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:8B5CF6,50:EC4899,100:06B6D4&height=200&section=header&text=AYUSH%20KUMAR&fontSize=70&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=Software%20Engineer&descAlignY=65&descSize=22" width="100%"/>
+<img src="./header.svg" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1500&color=A855F7&center=true&vCenter=true&random=false&width=600&height=35&lines=Building+scalable+%26+impactful+solutions;Passionate+about+clean+code+%26+adventures;Full+Stack+Developer+%7C+Problem+Solver)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1500&color=A855F7&center=true&vCenter=true&random=false&width=600&height=35&lines=Building+scalable+%26+impactful+solutions;Venturing+into+AI+%26+adventures;Full+Stack+Developer+%7C+Problem+Solver)](https://git.io/typing-svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayush071)
 [![Portfolio](https://img.shields.io/badge/imayush.dev-000?style=for-the-badge&logo=vercel&logoColor=white)](https://www.imayush.dev)

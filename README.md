@@ -1,6 +1,7 @@
 <img src="./header.svg" width="100%"/>
 <div align="center">
 <!-- HEADER -->
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayush071)
 [![Portfolio](https://img.shields.io/badge/imayush.dev-000?style=for-the-badge&logo=vercel&logoColor=white)](https://www.imayush.dev)
 [![X](https://img.shields.io/badge/@ayushpandey_071-000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/ayushpandey_071)

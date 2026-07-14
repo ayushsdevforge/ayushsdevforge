@@ -19,14 +19,15 @@
 
 ```javascript
 const ayush = {
-    pronouns: "he" | "him",
-    education: "B.Tech in CSE @ RGPV, Bhopal",
+    pronouns: "he/him",
+    education: "B.Tech in Computer Science & Engineering @ RGPV, Bhopal",
 
     placedAt: "System Engineer (Digital Cadre) @ TCS",
-    role: "Full Stack Developer",
+    role: "Full-Stack Developer",
 
+    achievement: "College Topper in the AMCAT Assessment among 500+ participants",
     currentFocus: "Building scalable applications while venturing into AI",
-    hobbies: ["🏔️ Trekking", "🚗 Hitchhiking", "✈️ Adventures"]
+    hobbies: ["🏔️ Trekking", "🚗 Hitchhiking", "✈️ Adventure"]
 };
 ```
 

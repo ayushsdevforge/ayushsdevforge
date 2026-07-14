@@ -2,8 +2,6 @@
 <!-- HEADER -->
 <img src="./header.svg" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1500&color=A855F7&center=true&vCenter=true&random=false&width=600&height=35&lines=Building+scalable+%26+impactful+solutions;Venturing+into+AI+%26+adventures;Full+Stack+Developer+%7C+Problem+Solver)](https://git.io/typing-svg)
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayush071)
 [![Portfolio](https://img.shields.io/badge/imayush.dev-000?style=for-the-badge&logo=vercel&logoColor=white)](https://www.imayush.dev)
 [![X](https://img.shields.io/badge/@ayushpandey_071-000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/ayushpandey_071)

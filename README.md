@@ -20,18 +20,12 @@
 ```javascript
 const ayush = {
     pronouns: "he" | "him",
-    education: "B.Tech in CSE @ SISTec, Bhopal",
+    education: "B.Tech in CSE @ RGPV, Bhopal",
 
-    workingAs: "System Engineer (Digital Cadre) @ TCS",
+    placedAt: "System Engineer (Digital Cadre) @ TCS",
     role: "Full Stack Developer",
 
-    currentFocus: "Building scalable applications",
-
-    achievements: [
-        "🏆 District Topper - Science Olympiad",
-        "🎯 Top Rank in AMCAT Assessment",
-    ],
-
+    currentFocus: "Building scalable applications while venturing into AI",
     hobbies: ["🏔️ Trekking", "🚗 Hitchhiking", "✈️ Adventures"]
 };
 ```
